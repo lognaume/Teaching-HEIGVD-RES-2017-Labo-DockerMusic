@@ -3,10 +3,10 @@
 ## Admin
 
 * Every student must deliver a complete solution.
-* It is up to you if you want to fork this repo, or if you prefer to work in a private repo. However, you have to use exactly the same directory structure for the validation procedure to work. 
+* It is up to you if you want to fork this repo, or if you prefer to work in a private repo. However, you have to use exactly the same directory structure for the validation procedure to work.
 * There will not be a "full" lab grade for this long lab, but there will be one point to gain for the "salami" TE grade (i.e. it is one of the "challenges"). Also, the skills that you will learn during this lab will be necessary for subsequent labs.
 * We expect that you will have more issues and questions than with other labs (because we have a left some questions open on purpose). Please ask your questions on telegram or in the forum, so that everyone in the class can benefit from the discussion.
- 
+
 ## Objectives
 
 This lab has 4 objectives:
@@ -121,21 +121,21 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic
 | ---  | ---
 |Question | In a JavaScript program, if we have an object, how can we **serialize it in JSON**?
-| | *Enter your response here...*
+| | `JSON.stringify(obj);`
 |Question | What is **npm**?
-| | *Enter your response here...*
+| | *Node packet manager*
 |Question | What is the `npm install` command and what is the purpose of the `--save` flag?
-| | *Enter your response here...*
+| | *`install` : install a package, `--save` : add as dependency*
 |Question | How can we use the `https://www.npmjs.com/` web site?
-| | *Enter your response here...*
+| | *To look for a node package*
 |Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122?
-| | *Enter your response here...*
+| | *Use the package rfc4122 https://www.npmjs.com/package/rfc4122* `var rfc4122 = new RFC4122();`
 |Question | In Node.js, how can we execute a function on a **periodic** basis?
-| | *Enter your response here...*
+| | *https://nodejs.org/api/timers.html* `setInterval(callback, delay[, ...args])` or `setTimeout(callback, delay[, ...args])`
 |Question | In Node.js, how can we **emit UDP datagrams**?
-| | *Enter your response here...*
+| | *https://nodejs.org/api/dgram.html#dgram_socket_send_msg_offset_length_port_address_callback*
 |Question | In Node.js, how can we **access the command line arguments**?
-| | *Enter your response here...*
+| | *https://nodejs.org/docs/latest/api/process.html#process_process_argv*
 
 
 ## Task 3: package the "musician" app in a Docker image
@@ -143,11 +143,11 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic
 | ---  | ---
 |Question | How do we **define and build our own Docker image**?
-| | *Enter your response here...*
+| | *https://docs.docker.com/get-started/*
 |Question | How can we use the `ENTRYPOINT` statement in our Dockerfile?
-| | *Enter your response here...*
+| | *To start a script once the container is running*
 |Question | After building our Docker image, how do we use it to **run containers**?
-| | *Enter your response here...*
+| | `docker build -t imagename .` then `docker run -p 4000:80 nameofimage`
 |Question | How do we get the list of all **running containers**?
 | | *Enter your response here...*
 |Question | How do we **stop/kill** one running container?
@@ -162,13 +162,13 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | ---  | ---
 |Question | With Node.js, how can we listen for UDP datagrams in a multicast group?
 | | *Enter your response here...*
-|Question | How can we use the `Map` built-in object introduced in ECMAScript 6 to implement a **dictionary**? 
+|Question | How can we use the `Map` built-in object introduced in ECMAScript 6 to implement a **dictionary**?
 | | *Enter your response here...*
-|Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting? 
+|Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting?
 | | *Enter your response here...*
-|Question | When and how do we **get rid of inactive players**? 
+|Question | When and how do we **get rid of inactive players**?
 | | *Enter your response here...*
-|Question | How do I implement a **simple TCP server** in Node.js? 
+|Question | How do I implement a **simple TCP server** in Node.js?
 | | *Enter your response here...*
 
 
